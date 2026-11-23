@@ -1,5 +1,5 @@
-name: 既存記事の改善提案
-description: 既存記事の内容・構成の大幅な変更や見直しを提案する
+name: 既存記事の問題報告
+description: 既存記事の誤り・わかりにくさ・構成の問題を報告する
 title: "[改善] "
 body:
   - type: input

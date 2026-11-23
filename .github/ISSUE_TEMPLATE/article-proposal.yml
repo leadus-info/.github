@@ -1,6 +1,6 @@
-name: 記事の提案
+name: 新規記事の提案
 description: 新規記事のトピックを提案する
-title: "[提案] "
+title: "[新規] "
 labels:
   - new-article
 body:
