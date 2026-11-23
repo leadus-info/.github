@@ -5,6 +5,7 @@ leadus-info organizationの全リポジトリに共通する、GitHubの既定�
 ## 運用ルール
 
 - **`main`ブランチへの直接変更は禁止**。反映は`main`以外の作業用ブランチからのPull Requestによるマージのみで行う。
+  - このリポジトリはpublicのため、GitHubのbranch protectionで技術的にも強制している(PR必須、直接push・force push・ブランチ削除の禁止。管理者にも適用)。承認(Approve)の必須数は0とし、メンテナー自身がマージできるようにしている。
 - このリポジトリの変更は、organizationの全リポジトリのissue・PRの作成画面に即座に反映される。issueテンプレートを変更する場合は、YAMLとして読み込めることを確認してからPRを出す(読み込めないテンプレートは、エラーにならず表示されなくなるだけで気づきにくい)。
 - このリポジトリには、GitHubの既定ファイルとして置く必要があるものだけを置く。文書の本体は[docs](https://github.com/leadus-info/docs)で管理する(下記「管理するもの」参照)。
 
