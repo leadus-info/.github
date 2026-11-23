@@ -2,6 +2,10 @@ name: 既存記事の問題報告
 description: 既存記事の誤り・わかりにくさ・構成の問題を報告する
 title: "[改善] "
 body:
+  - type: markdown
+    attributes:
+      value: "誤字・脱字・表記ゆれなどの軽微な誤りは、このissueで報告しても、issueを立てずに直接PRで修正しても構いません。"
+
   - type: input
     id: article
     attributes:
@@ -31,7 +35,5 @@ body:
     attributes:
       label: 確認事項
       options:
-        - label: 誤字・表記ゆれなど軽微な修正のみの場合は、issueを立てず直接PRを出すことを理解した
-          required: true
         - label: "起票後、メンテナーが問題の重要度に応じて`impact: 1`（些末な改善余地）〜`impact: 5`（論理破綻・誤った理解に導かれる）のラベルを付けることを理解した"
           required: true
