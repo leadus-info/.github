@@ -1,0 +1,25 @@
+name: 質問・相談
+description: 記事の内容や貢献の方法について質問・相談する
+title: "[質問] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: "記事の誤りやわかりにくい箇所の報告は「既存記事の問題報告」、新しい記事のトピックの提案は「新規記事の提案」を使ってください。issueで扱いにくい内容は、support@leadus.info までご連絡ください。"
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問・相談の内容
+      description: 知りたいこと・相談したいことを記載してください。
+    validations:
+      required: true
+
+  - type: input
+    id: article
+    attributes:
+      label: 関連する記事
+      description: 特定の記事に関する質問であれば、記事へのパス（例：math/advanced/analysis/derivatives.md）を記載してください（なければ空欄で可）。
+    validations:
+      required: false
