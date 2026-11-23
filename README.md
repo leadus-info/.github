@@ -7,7 +7,7 @@ leadus-info organizationの全リポジトリに共通する、GitHubの既定�
 | ファイル | 内容 |
 | --- | --- |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 既定の貢献ガイド。[docs](https://github.com/leadus-info/docs)の貢献ガイド・執筆ガイドへの案内のみを書く |
-| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | 既定のissueテンプレート(記事の提案・既存記事の改善提案)と`config.yml` |
+| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | 既定のissueテンプレート(新規記事の提案・既存記事の問題報告)と`config.yml` |
 | [.github/pull_request_template.md](.github/pull_request_template.md) | 既定のPRテンプレート |
 | [profile/README.md](profile/README.md) | organizationのページに表示されるプロフィール |
 
@@ -28,7 +28,7 @@ leadus-info organizationの全リポジトリに共通する、GitHubの既定�
 | 科目リポジトリ(`math`・`phys`等) | 既定を使う(自前のものを置かない) | 既定を使う(自前のものを置かない) |
 | 科目以外(`docs`・`platform`・`assets-web`・`agent`) | 自前の`.github/ISSUE_TEMPLATE/config.yml`で既定を打ち消す | 既定を使う |
 
-issueテンプレートは科目リポジトリ向け(記事の提案・改善提案)のため、科目以外のリポジトリでは打ち消しています。
+issueテンプレートは科目リポジトリ向け(新規記事の提案・既存記事の問題報告)のため、科目以外のリポジトリでは打ち消しています。
 
 ## 参考
 
