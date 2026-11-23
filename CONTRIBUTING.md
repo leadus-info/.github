@@ -1,0 +1,13 @@
+# 貢献ガイド
+
+Leadus Projectへの貢献を歓迎します。\
+全科目に共通するルールは[docs](https://github.com/leadus-info/docs)リポジトリで管理しています。記事を作成・編集する前に、以下を必ずお読みください。
+
+- [貢献ガイド](https://github.com/leadus-info/docs/blob/main/contribution/CONTRIBUTING.md): 貢献の方法、issueの立て方・ブランチの命名規則・PRの出し方・レビューの流れ
+- [執筆ガイド](https://github.com/leadus-info/docs/blob/main/contribution/STYLE_GUIDE.md): 記事の配置・執筆ルール(全科目共通)
+- 各科目リポジトリの`GUID.md`: 科目固有の執筆ルール
+
+## ライセンス
+
+投稿物は、投稿先のリポジトリの`LICENSE`に定めるライセンスのもとで公開されます(科目リポジトリの記事はCC BY-SA 4.0)。\
+投稿をもって、このライセンスへの同意とみなします。
